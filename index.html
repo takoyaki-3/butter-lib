@@ -1,0 +1,16 @@
+<!-- dist/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpack Example</title>
+</head>
+<body>
+    <script type="module">
+        import Butter from './butter/dist/main.js';
+        const addNumbers = Butter.addNumbers;
+        const result = addNumbers(10, 20);
+        console.log(result);  // Outputs: 30
+    </script>
+</body>
+</html>
